@@ -15,7 +15,7 @@ use Drupal\Core\Link;
  *
  * @Block(
  *   id = "random_product_block",
- *   admin_label = @Translation("“Product of the Day"),
+ *   admin_label = @Translation("Product of the Day"),
  *   category = @Translation("Custom")
  * )
  */
@@ -73,13 +73,25 @@ class RandomProductBlock extends BlockBase implements ContainerFactoryPluginInte
     } else {
       $image = '<p>No image available</p>';
     }
+    $link = Link::fromTextAndUrl(
+      $this->t('View Product'),
+      Url::fromRoute('entity.product_entity.canonical', ['product_entity' => $product->id()])
+    )->toRenderable();
+
+    $link['#attributes']['class'][] = 'cta-link';
+    $link['#attributes']['data-product-id'] = $product->id();
     $build = [
       '#theme' => 'random_product_block',
       '#name' => $product->get('name')->value,
       '#summary' => $product->get('summary')->value,
       '#image' => $image,
-      '#link' => Link::fromTextAndUrl($this->t('View Product'), Url::fromRoute('entity.product_entity.canonical', ['product_entity' => $product->id()]))->toRenderable(),
+      '#link' => $link,
       '#cache' => ['max-age' => 0],
+      '#attached' => [
+        'library' => [
+          'orchard_product/cta_click',
+        ],
+      ],
     ];
 
     return $build;

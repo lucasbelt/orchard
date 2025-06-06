@@ -1,0 +1,7 @@
+cta_click:
+  version: 1.x
+  js:
+    js/cta_click.js: {}
+  dependencies:
+    - core/drupal
+    - core/once

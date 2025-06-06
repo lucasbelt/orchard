@@ -2,5 +2,26 @@
 
 use Drupal\Core\Database\Schema;
 
-function orchard_product_install() {
+function orchard_product_schema() {
+  $schema['orchard_product_clicks'] = [
+    'description' => 'Stores CTA click data.',
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+      ],
+      'product_id' => [
+        'type' => 'int',
+        'not null' => TRUE,
+      ],
+      'clicked_at' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'description' => 'Timestamp of the click.',
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  return $schema;
 }

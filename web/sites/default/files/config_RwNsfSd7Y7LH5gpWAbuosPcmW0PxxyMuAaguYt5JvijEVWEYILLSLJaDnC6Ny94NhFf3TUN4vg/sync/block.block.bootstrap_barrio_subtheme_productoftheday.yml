@@ -1,0 +1,25 @@
+uuid: 561256e6-142f-4373-aa25-4a530b7ebab1
+langcode: en
+status: true
+dependencies:
+  module:
+    - orchard_product
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_productoftheday
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: -6
+provider: null
+plugin: random_product_block
+settings:
+  id: random_product_block
+  label: '“Product of the Day'
+  label_display: visible
+  provider: orchard_product
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/admin/*'

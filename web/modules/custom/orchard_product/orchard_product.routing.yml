@@ -37,3 +37,18 @@ entity.product_entity.canonical:
     _title_callback: '\Drupal\orchard_product\Controller\ProductController::title'
   requirements:
     _permission: 'access content'
+
+orchard_product.settings:
+  path: '/admin/config/orchard-product/settings'
+  defaults:
+    _form: '\Drupal\orchard_product\Form\OrchardProductSettingsForm'
+    _title: 'Orchard Product Settings'
+  requirements:
+    _permission: 'administer orchard product'
+
+orchard_product.click:
+  path: '/orchard-product/click'
+  defaults:
+    _controller: '\Drupal\orchard_product\Controller\OrchardProductClickController::logClick'
+  requirements:
+    _access: 'TRUE'
