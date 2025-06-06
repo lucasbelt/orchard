@@ -1,0 +1,22 @@
+uuid: 37e6885c-0757-40b0-982c-3c2c7566ef0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - orchard
+_core:
+  default_config_hash: FnxGVVHcfHaG01M2YGt2hKoT0QAwbGgAY4DD5Fs6NH8
+id: orchard_content
+theme: orchard
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

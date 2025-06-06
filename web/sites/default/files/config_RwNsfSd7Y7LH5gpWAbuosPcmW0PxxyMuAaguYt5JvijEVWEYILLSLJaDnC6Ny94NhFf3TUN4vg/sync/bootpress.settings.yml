@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: mV1Hl7nuH3e00JfPvedjbztQtPuOnz32kN4oNBImzgQ
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: true
+  node_user_picture: true
+  slogan: true
+facebook_url: 'https://www.facebook.com/hyscaler'
+twitter_url: 'https://twitter.com/hyscaler'
+google_plus_url: 'https://plus.google.com/+hyscaler'
+linkedin_url: 'http://www.linkedin.com/company/hyscaler'
+pinterest_url: 'https://www.pinterest.com/hyscaler'
+rss_url: rss.xml
+copyright_text: 'Copyright 2020· All rights reserved'
+show_social_icon: 1
+show_credit_link: 1

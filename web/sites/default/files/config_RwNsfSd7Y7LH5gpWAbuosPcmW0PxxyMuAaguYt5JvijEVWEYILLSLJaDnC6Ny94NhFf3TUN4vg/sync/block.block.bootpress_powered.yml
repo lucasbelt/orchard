@@ -1,0 +1,22 @@
+uuid: b75c369f-b708-472f-8bbe-b0485d8a13e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: m05PU4smTKjrm5v9EQh0uosP9v43Pv7U8hCh_NPyUyY
+id: bootpress_powered
+theme: bootpress
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

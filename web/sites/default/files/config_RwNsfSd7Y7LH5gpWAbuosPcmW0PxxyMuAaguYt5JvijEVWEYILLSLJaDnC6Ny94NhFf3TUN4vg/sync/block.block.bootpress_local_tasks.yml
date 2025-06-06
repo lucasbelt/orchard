@@ -1,0 +1,22 @@
+uuid: 6a4d26a3-9a17-4d10-b104-67424977990b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootpress
+_core:
+  default_config_hash: OJdOz2zzFCLtMECLLb62DNwDeXJOUA6wO2dwiNikNCs
+id: bootpress_local_tasks
+theme: bootpress
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

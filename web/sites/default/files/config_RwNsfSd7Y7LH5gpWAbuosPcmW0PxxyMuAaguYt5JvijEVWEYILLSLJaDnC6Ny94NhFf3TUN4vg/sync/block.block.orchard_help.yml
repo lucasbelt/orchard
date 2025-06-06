@@ -1,0 +1,22 @@
+uuid: 39fd97a5-74ec-4bcb-b83c-bb1e151c6701
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - orchard
+_core:
+  default_config_hash: uvHNGOWSkLNoR-6zyWPVJi_flhXh6ubh2y3gdJAizUY
+id: orchard_help
+theme: orchard
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

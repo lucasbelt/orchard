@@ -1,0 +1,28 @@
+uuid: 5eb51ed1-bab0-43cd-b483-7d89ae249c59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.body
+    - node.type.banner
+  module:
+    - text
+    - user
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

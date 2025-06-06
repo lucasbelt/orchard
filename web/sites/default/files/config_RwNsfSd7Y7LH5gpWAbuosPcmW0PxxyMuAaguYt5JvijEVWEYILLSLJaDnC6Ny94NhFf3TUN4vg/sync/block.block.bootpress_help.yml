@@ -1,0 +1,22 @@
+uuid: 4c7bad7c-acf3-46f9-909f-24c3cea9bfa6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bootpress
+_core:
+  default_config_hash: uvHNGOWSkLNoR-6zyWPVJi_flhXh6ubh2y3gdJAizUY
+id: bootpress_help
+theme: bootpress
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

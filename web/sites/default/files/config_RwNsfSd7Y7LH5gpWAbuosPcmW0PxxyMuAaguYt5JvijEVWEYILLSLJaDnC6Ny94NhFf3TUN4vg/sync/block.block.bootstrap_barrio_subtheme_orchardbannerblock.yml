@@ -1,0 +1,25 @@
+uuid: adf02ae0-9355-4c86-a3d0-7a4c0a22bcd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - orchard_banner
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_orchardbannerblock
+theme: bootstrap_barrio_subtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: banner_block
+settings:
+  id: banner_block
+  label: 'Orchard Banner Block'
+  label_display: visible
+  provider: orchard_banner
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/admin/*'

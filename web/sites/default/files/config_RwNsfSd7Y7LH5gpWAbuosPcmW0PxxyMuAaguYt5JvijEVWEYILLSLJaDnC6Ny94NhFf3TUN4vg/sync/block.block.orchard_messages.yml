@@ -1,0 +1,22 @@
+uuid: b1543a78-259d-4829-b6b0-4d251c799de1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - orchard
+_core:
+  default_config_hash: UIXGnyTLyfi4dS6_as6OYFxiJGgMGc1x478lheWCenY
+id: orchard_messages
+theme: orchard
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

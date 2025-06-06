@@ -1,0 +1,23 @@
+uuid: 92713d2a-d203-48db-be91-14cf64dfc89f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bootpress
+_core:
+  default_config_hash: kKqsn8edIcirXr9FMGMNTkzy_kky6QtyMZN5HbPolPY
+id: bootpress_search
+theme: bootpress
+region: footer_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

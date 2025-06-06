@@ -1,0 +1,27 @@
+uuid: ebf4d4e2-cf30-4882-9c2b-329ceb6696ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: gsBuq4DRAAWwOBb_Zk7bsEWQ0AYE-uJquOSj-ITF4D0
+id: bootpress_main_menu
+theme: bootpress
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

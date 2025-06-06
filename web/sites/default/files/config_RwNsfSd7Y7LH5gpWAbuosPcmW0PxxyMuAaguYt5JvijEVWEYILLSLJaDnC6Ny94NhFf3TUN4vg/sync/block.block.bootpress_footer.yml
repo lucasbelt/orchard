@@ -1,0 +1,27 @@
+uuid: 12940a52-a569-41b6-a677-88fac598dc24
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: pMHn3Z7YF5xP41mZ3Ej71pryoTlRQMeNxZUMFMq7BMU
+id: bootpress_footer
+theme: bootpress
+region: footer_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

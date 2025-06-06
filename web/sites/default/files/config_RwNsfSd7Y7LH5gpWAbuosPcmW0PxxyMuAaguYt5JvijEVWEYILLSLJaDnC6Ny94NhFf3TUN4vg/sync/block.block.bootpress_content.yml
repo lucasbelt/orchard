@@ -1,0 +1,22 @@
+uuid: 6d52dfea-d331-4678-91e9-398a96e1aa9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: FnxGVVHcfHaG01M2YGt2hKoT0QAwbGgAY4DD5Fs6NH8
+id: bootpress_content
+theme: bootpress
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

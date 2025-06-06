@@ -1,0 +1,22 @@
+uuid: 0c85402d-3666-4f90-83ee-2f302131b4ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: UIXGnyTLyfi4dS6_as6OYFxiJGgMGc1x478lheWCenY
+id: bootpress_messages
+theme: bootpress
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

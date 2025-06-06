@@ -1,0 +1,20 @@
+uuid: 5b92d7e5-2ae6-4213-88a3-a8d41c98cfba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - orchard
+_core:
+  default_config_hash: 0mo3rFw6qUxVZzEoxwX9-gE2Rff6IB-BWIqMPGoeqAw
+id: orchard_local_actions
+theme: orchard
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 61c303f3-32ed-4eb8-bdce-b0e791d449e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - orchard
+_core:
+  default_config_hash: kKqsn8edIcirXr9FMGMNTkzy_kky6QtyMZN5HbPolPY
+id: orchard_search
+theme: orchard
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

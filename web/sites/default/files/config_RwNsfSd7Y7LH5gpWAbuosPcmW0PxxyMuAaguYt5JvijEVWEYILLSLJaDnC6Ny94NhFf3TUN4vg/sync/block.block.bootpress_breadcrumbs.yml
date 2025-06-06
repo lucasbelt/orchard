@@ -1,0 +1,22 @@
+uuid: ef23a890-891c-4c1a-99b7-ea81c5b5daf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: 62kQLkK7DjuKBnUEdDTOs7hCzKxCA0IdNIHuQ6EjsjQ
+id: bootpress_breadcrumbs
+theme: bootpress
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

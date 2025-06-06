@@ -1,0 +1,27 @@
+uuid: fab8519f-56f2-489c-96e4-ede7f39f5130
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - bootpress
+_core:
+  default_config_hash: fXZVaTh5gOPCEOiCl13Ah6OThA6ILh3SKdKK27IiLcQ
+id: bootpress_account_menu
+theme: bootpress
+region: auto_hidden_block
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

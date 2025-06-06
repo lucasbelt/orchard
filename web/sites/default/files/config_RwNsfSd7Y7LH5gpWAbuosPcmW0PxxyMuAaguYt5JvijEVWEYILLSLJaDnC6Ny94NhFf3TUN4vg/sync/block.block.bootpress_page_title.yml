@@ -1,0 +1,20 @@
+uuid: e66feb75-3c1b-4742-95d6-9e72097065a7
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bootpress
+_core:
+  default_config_hash: bhspBjC4CAlnqbXNluUgxdTuvukgo9k5KuNaZrYYago
+id: bootpress_page_title
+theme: bootpress
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
