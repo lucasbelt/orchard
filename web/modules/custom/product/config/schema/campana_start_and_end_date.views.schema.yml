@@ -1,7 +1,0 @@
-views.filter_value.camapana_start_and_end_date:
-  type: mapping
-  label: 'Event status'
-  mapping:
-    state:
-      type: string
-      label: 'Event status'
