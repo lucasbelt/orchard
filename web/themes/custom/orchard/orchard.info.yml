@@ -1,6 +1,6 @@
-name: orchard
+name: Orchard
 type: theme
-base theme: bootpress
+base theme: bootstrap_barrio
 description: A flexible theme with a responsive, mobile-first layout.
 package: Custom
 core_version_requirement: ^10

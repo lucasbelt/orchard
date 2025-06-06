@@ -1,6 +1,11 @@
-orchard_product.admin_menu:
+orchard_product.products_link:
   title: 'Products'
-  description: 'Manage products'
-  parent: system.admin_content
+  description: 'Manage custom products'
+  parent: system.admin_structure
   route_name: entity.product_entity.collection
-  weight: 100
+  weight: 15
+  menu_name: admin
+  options:
+    attributes:
+      class:
+        - 'admin-menu-item'

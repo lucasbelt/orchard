@@ -1,5 +1,5 @@
-orchard_product.add:
-  route_name: product.add_form
+product_entity.add:
+  route_name: entity.product_entity.add_form
   title: 'Add Product'
   appears_on:
-    - entity.product.collection
+    - entity.product_entity.collection

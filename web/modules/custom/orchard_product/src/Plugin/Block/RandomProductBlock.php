@@ -15,7 +15,7 @@ use Drupal\Core\Link;
  *
  * @Block(
  *   id = "random_product_block",
- *   admin_label = @Translation("Random Product"),
+ *   admin_label = @Translation("“Product of the Day"),
  *   category = @Translation("Custom")
  * )
  */

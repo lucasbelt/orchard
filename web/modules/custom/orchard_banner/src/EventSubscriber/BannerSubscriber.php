@@ -39,7 +39,6 @@ class BannerSubscriber implements EventSubscriberInterface {
           if ((int) $url->getRouteParameters()['node'] === (int) $node->id()) {
             $parent = $link->get('parent');
             foreach ($parent as $root) {
-              dpm($root);
             }
             $parent = $parent->getString();
             if (str_contains($parent, 'root-a')) {

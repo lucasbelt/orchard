@@ -28,7 +28,7 @@ use Drupal\Core\Field\BaseFieldDefinition;
  *     "list_builder" = "Drupal\orchard_product\ProductListBuilder",
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
  *     "route_provider" = {
- *       "default" = "Drupal\Core\Entity\Routing\AdminHtmlRouteProvider"
+ *       "default" = "Drupal\Core\Entity\Routing\DefaultHtmlRouteProvider"
  *     },
  *     "access" = "Drupal\Core\Entity\EntityAccessControlHandler",
  *   },

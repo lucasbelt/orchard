@@ -18,6 +18,7 @@
         "composer/installers": "^2.0",
         "drupal/bootpress": "^11.0",
         "drupal/bootstrap": "^5.0",
+        "drupal/bootstrap_barrio": "^5.1",
         "drupal/classy": "^2.0",
         "drupal/core-composer-scaffold": "^10.4",
         "drupal/core-project-message": "^10.4",

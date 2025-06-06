@@ -1,6 +1,6 @@
 /**
  * @file
- * orchard behaviors.
+ * Orchard behaviors.
  */
 (function (Drupal) {
 
