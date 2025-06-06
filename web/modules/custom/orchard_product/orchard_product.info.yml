@@ -1,0 +1,8 @@
+name: 'Product'
+type: module
+description: 'Provides a block showing a random product'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - node
+  - block

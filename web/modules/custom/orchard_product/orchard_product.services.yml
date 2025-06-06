@@ -1,0 +1,5 @@
+services:
+  orchard_product.weekly_report:
+    class: Drupal\orchard_product\Service\WeeklyReport
+    tags:
+      - { name: cron }

@@ -1,0 +1,14 @@
+.banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/banner.webp');
+}
+
+.banner-a {
+  background-image: url('../img/banner-a.webp');
+}
+
+.banner-b {
+  background-image: url('../img/banner-b.webp');
+}

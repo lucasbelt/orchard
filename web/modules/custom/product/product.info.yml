@@ -1,0 +1,5 @@
+name: 'product'
+type: module
+description: 'used to generate product'
+core_version_requirement: ^8.8 || ^9 || ^10
+package: 'Custom'

@@ -1,0 +1,19 @@
+add product entity entities:
+  title: 'Create new product entity entities'
+
+administer product entity entities:
+  title: 'Administer product entity entities'
+  description: 'Allow to access the administration form to configure product entity entities.'
+  restrict access: true
+
+delete product entity entities:
+  title: 'Delete product entity entities'
+
+edit product entity entities:
+  title: 'Edit product entity entities'
+
+view published product entity entities:
+  title: 'View published product entity entities'
+
+view unpublished product entity entities:
+  title: 'View unpublished product entity entities'

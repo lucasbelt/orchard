@@ -1,0 +1,7 @@
+name: 'Orchar Banner'
+type: module
+description: 'Changes banner background image based on active menu item.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - menu_ui

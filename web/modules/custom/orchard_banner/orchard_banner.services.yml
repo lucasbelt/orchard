@@ -1,0 +1,6 @@
+services:
+  orchard_banner.subscriber:
+    class: Drupal\orchard_banner\EventSubscriber\BannerSubscriber
+    arguments: ['@current_route_match', '@entity_type.manager']
+    tags:
+      - { name: event_subscriber }

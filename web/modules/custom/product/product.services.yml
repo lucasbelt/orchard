@@ -1,0 +1,4 @@
+services:
+  product.display:
+    class: Drupal\product\ProductDisplay
+    arguments: ["@current_route_match", "@entity_type.manager", "@date.formatter"]

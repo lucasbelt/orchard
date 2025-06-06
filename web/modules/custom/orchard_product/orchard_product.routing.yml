@@ -1,0 +1,39 @@
+entity.product_entity.collection:
+  path: '/admin/content/product'
+  defaults:
+    _entity_list: 'product_entity'
+    _title: 'Products'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.product_entity.add_form:
+  path: '/admin/content/product/add'
+  defaults:
+    _entity_form: 'product_entity.add'
+    _title: 'Add Product'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.product_entity.edit_form:
+  path: '/admin/content/product/{product_entity}/edit'
+  defaults:
+    _entity_form: 'product_entity.edit'
+    _title: 'Edit Product'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.product_entity.delete_form:
+  path: '/admin/content/product/{product_entity}/delete'
+  defaults:
+    _entity_form: 'product_entity.delete'
+    _title: 'Delete Product'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.product_entity.canonical:
+  path: '/product/{product_entity}'
+  defaults:
+    _entity_view: 'product_entity'
+    _title_callback: '\Drupal\orchard_product\Controller\ProductController::title'
+  requirements:
+    _permission: 'access content'

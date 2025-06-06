@@ -1,0 +1,14 @@
+<?php
+function orchard_product_theme($existing, $type, $theme, $path) {
+  return [
+    'random_product_block' => [
+      'variables' => [
+        'name' => NULL,
+        'summary' => NULL,
+        'image' => NULL,
+        'link' => NULL,
+      ],
+      'template' => 'random-product-block',
+    ],
+  ];
+}

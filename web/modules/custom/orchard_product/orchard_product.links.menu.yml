@@ -1,0 +1,6 @@
+orchard_product.admin_menu:
+  title: 'Products'
+  description: 'Manage products'
+  parent: system.admin_content
+  route_name: entity.product_entity.collection
+  weight: 100
